@@ -1,0 +1,42 @@
+    
+    /* Estilos adicionales */
+    .navbar.transparent {
+       
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) !important;
+          
+          
+        border-bottom: none;
+        box-shadow: none;
+    }
+    /* Estilo para el efecto hover */
+    a:hover {
+    color: rgb(207, 207, 207) !important; /* Color al pasar el cursor */
+    transition: color 0.3s ease; /* Transición suave del cambio de color */
+    text-decoration: none;
+}
+
+      
+    .navbar.transparent .navbar-brand,
+    .navbar.transparent .navbar-nav .nav-link {
+        color: #ffffff; /* Letras blancas */
+    }
+    .navbar.fixed {
+        background-color: #000000; /* Fondo negro */
+    }
+    .navbar.fixed .navbar-brand,
+    .navbar.fixed .navbar-nav .nav-link {
+        color: #ffffff; /* Letras blancas */
+    }
+    #cubridor{
+        height: 200px; 
+        position: absolute; 
+        top: 0; 
+        bottom: 0;
+         left: 0; 
+         right: 0; 
+         background:linear-gradient(to right, rgba(0, 0, 0, 0.9),rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,0.9)); 
+         pointer-events: none;
+    }
+    a{
+        text-decoration: none;
+    }
