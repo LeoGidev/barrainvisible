@@ -30,7 +30,25 @@
       </ul>
     </div>
   </nav>
+  <!-- Portada-->
+  <div class='container-fluid' style="height: 200px; background-image: url('img/portada.png');">
+    <div id='cubridor'></div>
+    
+    </div>
+    <div class='container-fluid' style="height: 60px; background-color: black;">
+    
+    </div>
 
   </header>
+  <script>
+    // Cambio de color de la barra de navegación al hacer scroll
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > $('.container-fluid').height()) {
+        $('.navbar').removeClass('transparent').addClass('fixed');
+      } else {
+        $('.navbar').removeClass('fixed').addClass('transparent');
+      }
+    });
+    </script>
   </body>
   </html>
